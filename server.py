@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request, jsonify, make_response
 
 app = Flask(__name__)
 
@@ -8,9 +8,3 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True, port=8000, host='0.0.0.0')
-    
-# per eseguire lanciare il comando
-# python server.py
-# oppure
-# export FLASK_APP=server.py
-# lask run --port=8000 --host=0.0.0.0
