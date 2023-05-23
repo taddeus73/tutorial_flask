@@ -1,4 +1,5 @@
 # tutorial flask
+## creare request GET e POST e restituiamo la risposta in JSON
 
 ### creare il virtual-env con il seguente comando
 ```bash
@@ -36,3 +37,4 @@ python server.py
 set FLASK_APP=server.py
 flask run --port=8000 --host=0.0.0.0
 ```
+
